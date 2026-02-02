@@ -67,4 +67,10 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins:
   - search
-  - tags
+  - tags:
+      tags_allowed:
+      - Telegram
+      - Инструкция
+      - manual
+      - Полезное
+  - glightbox
