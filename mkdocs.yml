@@ -13,8 +13,8 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: light green # Основной цвет
-      accent: blue grey # Акцентный цвет
+      primary: amber # Основной цвет
+      accent: grey # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
       # green; light green; lime; yellow; amber; orange; deep orange; brown; 
@@ -43,6 +43,7 @@ theme: # Тема сайта, информация о ее параметрах
     - search.suggest
     - search.highlight
     - search.share
+
 nav:
 - Главная страница: index.md
 - Инструкции: 
@@ -50,6 +51,8 @@ nav:
     - Как отправить отложенное сообщение в Telegram: instructions/Telegram/klodisapk-instruction.md
     - Тексты: 
       - text/index.md
+    - Теговая страница: tags.md
+
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
@@ -65,12 +68,13 @@ markdown_extensions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
   - search
   - tags:
       tags_allowed:
       - Telegram
       - Инструкция
-      - manual
       - Полезное
+      - Портфолио
   - glightbox
