@@ -47,9 +47,9 @@ nav:
 - Инструкции: 
     - instructions/index.md
     - Как отправить отложенное сообщение в Telegram: instructions/Telegram/klodisapk-instruction.md
-    - Тексты: 
-      - text/index.md
-    - Теговая страница: tags.md
+- Тексты: 
+    - text/index.md
+- Теговая страница: tags.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
